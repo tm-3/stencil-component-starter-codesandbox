@@ -1,0 +1,55 @@
+{
+  "name": "lcl-comp-lib",
+  "version": "0.0.1",
+  "description": "Lagalag Component Library",
+  "module": "dist/esm/index.js",
+  "main": "dist/index.js",
+  "unpkg": "dist/ionic.js",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "dev": "stencil build --dev --watch --serve",
+    "build.docs": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "sb": "start-storybook -p 6006 -c .storybook --ci -s ./www",
+    "predev": "rimraf ./node_modules/@types/react"
+  },
+  "dependencies": {
+    "@ionic/core": "^4.1.1",
+    "ionicons": "^4.5.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@emotion/core": "^10.0.9",
+    "@emotion/styled": "^10.0.9",
+    "@stencil/core": "^0.18.1",
+    "@stencil/stylus": "^0.1.0",
+    "@storybook/addon-actions": "^5.0.3",
+    "@storybook/addon-centered": "^5.0.3",
+    "@storybook/addon-knobs": "^5.0.3",
+    "@storybook/addon-options": "^5.0.3",
+    "@storybook/addon-viewport": "^5.0.3",
+    "@storybook/html": "^5.0.3",
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.11.3",
+    "@types/storybook__addon-actions": "^3.4.2",
+    "@types/storybook__addon-centered": "^3.3.2",
+    "@types/storybook__addon-knobs": "^4.0.4",
+    "@types/storybook__addon-options": "^4.0.1",
+    "@types/storybook__addon-viewport": "^4.1.0",
+    "babel-loader": "^8.0.5",
+    "rimraf": "^2.6.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "ts-loader": "^5.3.3",
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.3333"
+  },
+  "license": "MIT",
+  "keywords": []
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0"
+    />
+    <title>Lcl Component Library</title>
+    <script src="/build/lcl.js"></script>
+    <link href="/build/lcl.css" rel="stylesheet" />
+  </head>
+  <style>
+    /* div {
+      background-color: bisque;
+      border: black 1px solid;
+    } */
+    span {
+      background-color: blue;
+    }
+
+    .test-style {
+      background-color: aqua;
+    }
+
+    .buttonStuff {
+      --lcl-button-width: 200px;
+      --lcl-button-height: 50px;
+      --lcl-border: 5px green solid;
+      /* background-color: yellow; */
+    }
+
+    body {
+      background-color: darkgray;
+    }
+  </style>
+  <body>
+    <lcl-button class="buttonStuff" icon-name="md-add-circle">
+      middle
+
+      <div slot="icon-right">right</div>
+      <div slot="icon-left">left</div>
+    </lcl-button>
+  </body>
+</html>

@@ -1,0 +1,1978 @@
+{
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.18.1"
+  },
+  "app": {
+    "namespace": "lcl",
+    "fsNamespace": "lcl",
+    "components": 37,
+    "entries": 36,
+    "bundles": 36
+  },
+  "options": {
+    "minifyJs": false,
+    "minifyCss": false,
+    "hashFileNames": false,
+    "hashedFileNameLength": 8,
+    "buildEs5": false
+  },
+  "components": [
+    {
+      "tag": "lcl-button",
+      "dependencies": [
+        "ion-icon"
+      ],
+      "dependencyOf": []
+    },
+    {
+      "tag": "ion-icon",
+      "dependencies": [],
+      "dependencyOf": [
+        "lcl-button"
+      ]
+    },
+    {
+      "tag": "lcl-app",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-card",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-checkbox",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-chip",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-combo-box",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-control-group",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-data-table",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-date-time-picker",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-dial",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-dialog",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-divider",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-footer",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-form",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-form-footer",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-form-header",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-form-section",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-form-tab-section",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-grid",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-header",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-image",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-label",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-list",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-list-item",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-menu",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-nav-drawer",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-panel",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-radio-button",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-stepper",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-switch",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-tab",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-tab-group",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-text-area",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-text-field",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-toolbar",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "lcl-tooltip",
+      "dependencies": [],
+      "dependencyOf": []
+    }
+  ],
+  "entries": [
+    {
+      "entryId": "entry.lcl-button.ion-icon",
+      "components": [
+        {
+          "tag": "lcl-button",
+          "dependencies": [
+            "ion-icon"
+          ],
+          "dependencyOf": []
+        },
+        {
+          "tag": "ion-icon",
+          "dependencies": [],
+          "dependencyOf": [
+            "lcl-button"
+          ]
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-button.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-button.entry.js",
+            "www/build/lcl/lcl-button.entry.js"
+          ],
+          "size": 13584,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "node_modules/ionicons/dist/collection/icon/icon.js",
+        "src/components/lcl-button/lcl-button.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-app",
+      "components": [
+        {
+          "tag": "lcl-app",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-app.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-app.entry.js",
+            "www/build/lcl/lcl-app.entry.js"
+          ],
+          "size": 345,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-app/lcl-app.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-card",
+      "components": [
+        {
+          "tag": "lcl-card",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-card.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-card.entry.js",
+            "www/build/lcl/lcl-card.entry.js"
+          ],
+          "size": 349,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-card/lcl-card.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-checkbox",
+      "components": [
+        {
+          "tag": "lcl-checkbox",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-checkbox.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-checkbox.entry.js",
+            "www/build/lcl/lcl-checkbox.entry.js"
+          ],
+          "size": 365,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-checkbox/lcl-checkbox.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-chip",
+      "components": [
+        {
+          "tag": "lcl-chip",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-chip.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-chip.entry.js",
+            "www/build/lcl/lcl-chip.entry.js"
+          ],
+          "size": 349,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-chip/lcl-chip.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-combo-box",
+      "components": [
+        {
+          "tag": "lcl-combo-box",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-combo-box.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-combo-box.entry.js",
+            "www/build/lcl/lcl-combo-box.entry.js"
+          ],
+          "size": 366,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-combo-box/lcl-combo-box.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-control-group",
+      "components": [
+        {
+          "tag": "lcl-control-group",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-control-group.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-control-group.entry.js",
+            "www/build/lcl/lcl-control-group.entry.js"
+          ],
+          "size": 382,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-control-group/lcl-control-group.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-data-table",
+      "components": [
+        {
+          "tag": "lcl-data-table",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-data-table.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-data-table.entry.js",
+            "www/build/lcl/lcl-data-table.entry.js"
+          ],
+          "size": 370,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-data-table/lcl-data-table.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-date-time-picker",
+      "components": [
+        {
+          "tag": "lcl-date-time-picker",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-date-time-picker.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-date-time-picker.entry.js",
+            "www/build/lcl/lcl-date-time-picker.entry.js"
+          ],
+          "size": 391,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-date-time-picker/lcl-date-time-picker.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-dial",
+      "components": [
+        {
+          "tag": "lcl-dial",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-dial.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-dial.entry.js",
+            "www/build/lcl/lcl-dial.entry.js"
+          ],
+          "size": 349,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-dial/lcl-dial.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-dialog",
+      "components": [
+        {
+          "tag": "lcl-dialog",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-dialog.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-dialog.entry.js",
+            "www/build/lcl/lcl-dialog.entry.js"
+          ],
+          "size": 357,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-dialog/lcl-dialog.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-divider",
+      "components": [
+        {
+          "tag": "lcl-divider",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-divider.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-divider.entry.js",
+            "www/build/lcl/lcl-divider.entry.js"
+          ],
+          "size": 361,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-divider/lcl-divider.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-footer",
+      "components": [
+        {
+          "tag": "lcl-footer",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-footer.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-footer.entry.js",
+            "www/build/lcl/lcl-footer.entry.js"
+          ],
+          "size": 357,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-footer/lcl-footer.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-form",
+      "components": [
+        {
+          "tag": "lcl-form",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-form.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-form.entry.js",
+            "www/build/lcl/lcl-form.entry.js"
+          ],
+          "size": 349,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-form/lcl-form.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-form-footer",
+      "components": [
+        {
+          "tag": "lcl-form-footer",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-form-footer.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-form-footer.entry.js",
+            "www/build/lcl/lcl-form-footer.entry.js"
+          ],
+          "size": 374,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-form-footer/lcl-form-footer.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-form-header",
+      "components": [
+        {
+          "tag": "lcl-form-header",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-form-header.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-form-header.entry.js",
+            "www/build/lcl/lcl-form-header.entry.js"
+          ],
+          "size": 374,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-form-header/lcl-form-header.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-form-section",
+      "components": [
+        {
+          "tag": "lcl-form-section",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-form-section.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-form-section.entry.js",
+            "www/build/lcl/lcl-form-section.entry.js"
+          ],
+          "size": 378,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-form-section/lcl-form-section.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-form-tab-section",
+      "components": [
+        {
+          "tag": "lcl-form-tab-section",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-form-tab-section.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-form-tab-section.entry.js",
+            "www/build/lcl/lcl-form-tab-section.entry.js"
+          ],
+          "size": 391,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-form-tab-section/lcl-form-tab-section.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-grid",
+      "components": [
+        {
+          "tag": "lcl-grid",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-grid.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-grid.entry.js",
+            "www/build/lcl/lcl-grid.entry.js"
+          ],
+          "size": 349,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-grid/lcl-grid.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-header",
+      "components": [
+        {
+          "tag": "lcl-header",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-header.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-header.entry.js",
+            "www/build/lcl/lcl-header.entry.js"
+          ],
+          "size": 357,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-header/lcl-header.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-image",
+      "components": [
+        {
+          "tag": "lcl-image",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-image.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-image.entry.js",
+            "www/build/lcl/lcl-image.entry.js"
+          ],
+          "size": 353,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-image/lcl-image.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-label",
+      "components": [
+        {
+          "tag": "lcl-label",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-label.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-label.entry.js",
+            "www/build/lcl/lcl-label.entry.js"
+          ],
+          "size": 353,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-label/lcl-label.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-list",
+      "components": [
+        {
+          "tag": "lcl-list",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-list.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-list.entry.js",
+            "www/build/lcl/lcl-list.entry.js"
+          ],
+          "size": 349,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-list/lcl-list.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-list-item",
+      "components": [
+        {
+          "tag": "lcl-list-item",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-list-item.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-list-item.entry.js",
+            "www/build/lcl/lcl-list-item.entry.js"
+          ],
+          "size": 366,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-list-item/lcl-list-item.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-menu",
+      "components": [
+        {
+          "tag": "lcl-menu",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-menu.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-menu.entry.js",
+            "www/build/lcl/lcl-menu.entry.js"
+          ],
+          "size": 349,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-menu/lcl-menu.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-nav-drawer",
+      "components": [
+        {
+          "tag": "lcl-nav-drawer",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-nav-drawer.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-nav-drawer.entry.js",
+            "www/build/lcl/lcl-nav-drawer.entry.js"
+          ],
+          "size": 370,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-nav-drawer/lcl-nav-drawer.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-panel",
+      "components": [
+        {
+          "tag": "lcl-panel",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-panel.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-panel.entry.js",
+            "www/build/lcl/lcl-panel.entry.js"
+          ],
+          "size": 353,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-panel/lcl-panel.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-radio-button",
+      "components": [
+        {
+          "tag": "lcl-radio-button",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-radio-button.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-radio-button.entry.js",
+            "www/build/lcl/lcl-radio-button.entry.js"
+          ],
+          "size": 378,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-radio-button/lcl-radio-button.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-stepper",
+      "components": [
+        {
+          "tag": "lcl-stepper",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-stepper.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-stepper.entry.js",
+            "www/build/lcl/lcl-stepper.entry.js"
+          ],
+          "size": 361,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-stepper/lcl-stepper.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-switch",
+      "components": [
+        {
+          "tag": "lcl-switch",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-switch.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-switch.entry.js",
+            "www/build/lcl/lcl-switch.entry.js"
+          ],
+          "size": 357,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-switch/lcl-switch.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-tab",
+      "components": [
+        {
+          "tag": "lcl-tab",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-tab.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-tab.entry.js",
+            "www/build/lcl/lcl-tab.entry.js"
+          ],
+          "size": 345,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-tab/lcl-tab.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-tab-group",
+      "components": [
+        {
+          "tag": "lcl-tab-group",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-tab-group.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-tab-group.entry.js",
+            "www/build/lcl/lcl-tab-group.entry.js"
+          ],
+          "size": 366,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-tab-group/lcl-tab-group.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-text-area",
+      "components": [
+        {
+          "tag": "lcl-text-area",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-text-area.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-text-area.entry.js",
+            "www/build/lcl/lcl-text-area.entry.js"
+          ],
+          "size": 366,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-text-area/lcl-text-area.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-text-field",
+      "components": [
+        {
+          "tag": "lcl-text-field",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-text-field.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-text-field.entry.js",
+            "www/build/lcl/lcl-text-field.entry.js"
+          ],
+          "size": 370,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-text-field/lcl-text-field.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-toolbar",
+      "components": [
+        {
+          "tag": "lcl-toolbar",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-toolbar.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-toolbar.entry.js",
+            "www/build/lcl/lcl-toolbar.entry.js"
+          ],
+          "size": 361,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-toolbar/lcl-toolbar.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
+    {
+      "entryId": "entry.lcl-tooltip",
+      "components": [
+        {
+          "tag": "lcl-tooltip",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "lcl-tooltip.entry.js",
+          "outputs": [
+            "dist/lcl/lcl-tooltip.entry.js",
+            "www/build/lcl/lcl-tooltip.entry.js"
+          ],
+          "size": 361,
+          "target": "es2017"
+        }
+      ],
+      "inputs": [
+        "src/components/lcl-tooltip/lcl-tooltip.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    }
+  ],
+  "rollupResults": {
+    "modules": [
+      {
+        "id": "entry.lcl-button.ion-icon.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclButton",
+          "IonIcon"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-button/lcl-button.js",
+            "exports": [
+              "LclButton"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/node_modules/ionicons/dist/collection/icon/utils.js",
+            "exports": [
+              "getIconMap",
+              "addIcons",
+              "getName",
+              "getSrc",
+              "isSrc",
+              "isValid"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/node_modules/ionicons/dist/collection/icon/icon.js",
+            "exports": [
+              "Icon"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-button.ion-icon.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-app.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclApp"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-app/lcl-app.js",
+            "exports": [
+              "LclApp"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-app.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-card.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclCard"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-card/lcl-card.js",
+            "exports": [
+              "LclCard"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-card.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-checkbox.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclCheckbox"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-checkbox/lcl-checkbox.js",
+            "exports": [
+              "LclCheckbox"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-checkbox.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-chip.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclChip"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-chip/lcl-chip.js",
+            "exports": [
+              "LclChip"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-chip.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-combo-box.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclComboBox"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-combo-box/lcl-combo-box.js",
+            "exports": [
+              "LclComboBox"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-combo-box.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-control-group.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclControlGroup"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-control-group/lcl-control-group.js",
+            "exports": [
+              "LclControlGroup"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-control-group.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-data-table.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclDataTable"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-data-table/lcl-data-table.js",
+            "exports": [
+              "LclDataTable"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-data-table.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-date-time-picker.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclDateTimePicker"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-date-time-picker/lcl-date-time-picker.js",
+            "exports": [
+              "LclDateTimePicker"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-date-time-picker.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-dial.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclDial"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-dial/lcl-dial.js",
+            "exports": [
+              "LclDial"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-dial.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-dialog.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclDialog"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-dialog/lcl-dialog.js",
+            "exports": [
+              "LclDialog"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-dialog.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-divider.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclDivider"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-divider/lcl-divider.js",
+            "exports": [
+              "LclDivider"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-divider.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-footer.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclFooter"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-footer/lcl-footer.js",
+            "exports": [
+              "LclFooter"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-footer.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-form.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclForm"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-form/lcl-form.js",
+            "exports": [
+              "LclForm"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-form.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-form-footer.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclFormFooter"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-form-footer/lcl-form-footer.js",
+            "exports": [
+              "LclFormFooter"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-form-footer.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-form-header.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclFormHeader"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-form-header/lcl-form-header.js",
+            "exports": [
+              "LclFormHeader"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-form-header.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-form-section.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclFormSection"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-form-section/lcl-form-section.js",
+            "exports": [
+              "LclFormSection"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-form-section.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-form-tab-section.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclFormTabSection"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-form-tab-section/lcl-form-tab-section.js",
+            "exports": [
+              "LclFormTabSection"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-form-tab-section.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-grid.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclGrid"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-grid/lcl-grid.js",
+            "exports": [
+              "LclGrid"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-grid.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-header.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclHeader"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-header/lcl-header.js",
+            "exports": [
+              "LclHeader"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-header.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-image.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclImage"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-image/lcl-image.js",
+            "exports": [
+              "LclImage"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-image.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-label.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclLabel"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-label/lcl-label.js",
+            "exports": [
+              "LclLabel"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-label.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-list.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclList"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-list/lcl-list.js",
+            "exports": [
+              "LclList"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-list.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-list-item.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclListItem"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-list-item/lcl-list-item.js",
+            "exports": [
+              "LclListItem"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-list-item.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-menu.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclMenu"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-menu/lcl-menu.js",
+            "exports": [
+              "LclMenu"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-menu.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-nav-drawer.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclNavDrawer"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-nav-drawer/lcl-nav-drawer.js",
+            "exports": [
+              "LclNavDrawer"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-nav-drawer.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-panel.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclPanel"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-panel/lcl-panel.js",
+            "exports": [
+              "LclPanel"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-panel.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-radio-button.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclRadioButton"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-radio-button/lcl-radio-button.js",
+            "exports": [
+              "LclRadioButton"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-radio-button.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-stepper.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclStepper"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-stepper/lcl-stepper.js",
+            "exports": [
+              "LclStepper"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-stepper.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-switch.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclSwitch"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-switch/lcl-switch.js",
+            "exports": [
+              "LclSwitch"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-switch.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-tab.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclTab"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-tab/lcl-tab.js",
+            "exports": [
+              "LclTab"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-tab.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-tab-group.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclTabGroup"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-tab-group/lcl-tab-group.js",
+            "exports": [
+              "LclTabGroup"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-tab-group.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-text-area.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclTextArea"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-text-area/lcl-text-area.js",
+            "exports": [
+              "LclTextArea"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-text-area.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-text-field.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclTextField"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-text-field/lcl-text-field.js",
+            "exports": [
+              "LclTextField"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-text-field.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-toolbar.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclToolbar"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-toolbar/lcl-toolbar.js",
+            "exports": [
+              "LclToolbar"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-toolbar.js",
+            "exports": []
+          }
+        ]
+      },
+      {
+        "id": "entry.lcl-tooltip.js",
+        "isEntry": true,
+        "imports": [],
+        "exports": [
+          "LclTooltip"
+        ],
+        "modules": [
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/components/lcl-tooltip/lcl-tooltip.js",
+            "exports": [
+              "LclTooltip"
+            ]
+          },
+          {
+            "filename": "/mnt/c/code/lcl-comp-lib/src/entry.lcl-tooltip.js",
+            "exports": []
+          }
+        ]
+      }
+    ]
+  },
+  "sourceGraph": {
+    "src/components/lcl-app/lcl-app.tsx": [],
+    "src/components/lcl-button/lcl-button.stories.ts": [],
+    "src/components/lcl-button/lcl-button.tsx": [],
+    "src/components/lcl-card/lcl-card.tsx": [],
+    "src/components/lcl-checkbox/lcl-checkbox.tsx": [],
+    "src/components/lcl-chip/lcl-chip.tsx": [],
+    "src/components/lcl-combo-box/lcl-combo-box.tsx": [],
+    "src/components/lcl-control-group/lcl-control-group.tsx": [],
+    "src/components/lcl-data-table/lcl-data-table.tsx": [],
+    "src/components/lcl-date-time-picker/lcl-date-time-picker.tsx": [],
+    "src/components/lcl-dial/lcl-dial.tsx": [],
+    "src/components/lcl-dialog/lcl-dialog.tsx": [],
+    "src/components/lcl-divider/lcl-divider.tsx": [],
+    "src/components/lcl-footer/lcl-footer.tsx": [],
+    "src/components/lcl-form-footer/lcl-form-footer.tsx": [],
+    "src/components/lcl-form-header/lcl-form-header.tsx": [],
+    "src/components/lcl-form-section/lcl-form-section.tsx": [],
+    "src/components/lcl-form-tab-section/lcl-form-tab-section.tsx": [],
+    "src/components/lcl-form/lcl-form.tsx": [],
+    "src/components/lcl-grid/lcl-grid.tsx": [],
+    "src/components/lcl-header/lcl-header.tsx": [],
+    "src/components/lcl-image/lcl-image.tsx": [],
+    "src/components/lcl-label/lcl-label.tsx": [],
+    "src/components/lcl-list-item/lcl-list-item.tsx": [],
+    "src/components/lcl-list/lcl-list.tsx": [],
+    "src/components/lcl-menu/lcl-menu.tsx": [],
+    "src/components/lcl-nav-drawer/lcl-nav-drawer.tsx": [],
+    "src/components/lcl-panel/lcl-panel.tsx": [],
+    "src/components/lcl-radio-button/lcl-radio-button.tsx": [],
+    "src/components/lcl-stepper/lcl-stepper.tsx": [],
+    "src/components/lcl-switch/lcl-switch.tsx": [],
+    "src/components/lcl-tab-group/lcl-tab-group.tsx": [],
+    "src/components/lcl-tab/lcl-tab.tsx": [],
+    "src/components/lcl-text-area/lcl-text-area.tsx": [],
+    "src/components/lcl-text-field/lcl-text-field.tsx": [],
+    "src/components/lcl-toolbar/lcl-toolbar.tsx": [],
+    "src/components/lcl-tooltip/lcl-tooltip.tsx": [],
+    "src/globals/app.ts": []
+  },
+  "collections": []
+}

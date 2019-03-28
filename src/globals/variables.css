@@ -1,0 +1,49 @@
+:root {
+  --color-primary: #998066;
+  --color-secondary: #485166;
+  --color-tertiary: #476a59;
+  --color-warning: '';
+  --color-success: '';
+  --color-danger: '';
+  --color-light: '';
+  --color-medium: '';
+  --color-dark: '';
+
+  --color-primary-0: #998066;
+  --color-primary-1: #ffae5b;
+  --color-primary-2: #e0b283;
+  --color-primary-3: #59524b;
+  --color-primary-4: #181818;
+
+  --color-secondary-1-0: #485166;
+  --color-secondary-1-1: #5276c2;
+  --color-secondary-1-2: #5e7095;
+  --color-secondary-1-3: #33363b;
+  --color-secondary-1-4: #101010;
+
+  --color-secondary-2-0: #476a59;
+  --color-secondary-2-1: #47c78a;
+  --color-secondary-2-2: #5c9c7d;
+  --color-secondary-2-3: #343e39;
+  --color-secondary-2-4: #111111;
+
+  --font-family-primary: '';
+  --font-family-secondary: '';
+  --font-color-primary: '';
+  --font-color-secondary: '';
+}
+
+/** Core CSS required for ionic components to work property */
+@import '~@ionic/core/css/core.css';
+
+/** Basic CSS for apps built with Ionic */
+@import '~@ionic/core/css/normalize.css';
+@import '~@ionic/core/css/structure.css';
+@import '~@ionic/core/css/typography.css';
+
+/** Optional CSS utils that can be commented out */
+@import '~@ionic/core/css/padding.css';
+@import '~@ionic/core/css/float-elements.css';
+@import '~@ionic/core/css/text-alignment.css';
+@import '~@ionic/core/css/text-transformation.css';
+@import '~@ionic/core/css/flex-utils.css';
